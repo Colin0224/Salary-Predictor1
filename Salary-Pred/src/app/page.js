@@ -1,4 +1,5 @@
 "use client";
+require('dotenv').config();
 import React, { useState } from 'react';
 import styles from './page.module.css'; // Ensure the path is correct
 import { OpenAI } from 'openai'; // Correct import based on package's export
