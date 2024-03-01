@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import styles from './page.module.css'; // Ensure the path is correct
 import { OpenAI } from 'openai'; // Correct import based on package's export
-const openai = new OpenAI({ apiKey: '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' , dangerouslyAllowBrowser: true});
+const openai = new OpenAI(process.env.OPENAI_API_KEY);
 
 const Home = () => {
     const [message, setMessage] = useState('');
