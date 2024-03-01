@@ -64,7 +64,7 @@ const Home = () => {
         <img src="https://www.statista.com/graphic/1/203183/percentage-distribution-of-household-income-in-the-us.jpg" alt="Statistic: Percentage distribution of household income in the United States in 2021 | Statista" className={styles.image} />
       </div>
       
-      <p>As time goes on, it's only natural our population becomes more and more educated; The percentage of our population with a college degree has steadily increased but that also means these degrees are less scarce, and maybe even less valuable.</p>
+      <p>As time goes on, its only natural our population becomes more and more educated; The percentage of our population with a college degree has steadily increased but that also means these degrees are less scarce, and maybe even less valuable.</p>
       <img src="https://www.mastersdegree.net/wp-content/uploads/2018/03/The-Percentage-of-Americans-With-College-Degrees-1.png" alt="College Degrees" className={styles.image} />
     </div>
   );
